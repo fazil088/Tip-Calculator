@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Advanaced Tip Calculator</title>
+    <link rel="icon" href="images/icon.jpg">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="contentBody">
+        <div class="label1">
+            <label>Bill Total</label>
+        </div>         
+            <input type="text" id="input1" onkeyup="calculateBill()" placeholder="$" >
+            <div class="label2">Tip Amount</div>
+            <input type="text" id="input2" onkeyup="calculateBill()" placeholder="%">
+            <div class="label3">People</div>
+            <button class="minusBtn" onclick="decreasePeople()">
+                <span>-</span>
+            </button>
+            
+            <span class="peopleCount" id="numberOfpeople">1</span>
+            <button class="plusBtn" onclick="increasePeople( )">
+                <span>+</span>
+            </button>
+            <div class="totalContainer" >Total Person</div>
+            <div class="total" id="totalPerson">$ 0.00</div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
