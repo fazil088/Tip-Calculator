@@ -6,12 +6,16 @@ html,body{
     align-items: center;
     flex-direction: column;
     height: 100vh;
+    color: #F6F4F1;
+    background-color: #001a33;
 }
 .contentBody{
     background-color:#000d1a ;
     width: 350px;
     height: 400px;
     border-radius: 15px;
+    box-shadow: 0px 5px 5px 10px #000d1a;
+    padding-top: 3rem;
 }
 .label1{
     color: #fff;
